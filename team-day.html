@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Team Meeting Shedule</title>
+<style>
+.schedule{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  border-left: solid 0.2rem gray;
+}
+
+.schedule-header{
+  margin-top: 3rem;
+}
+
+.schedule-title{
+  display: flex;
+  align-items: center;
+  margin-left: -1rem;
+  margin-top: 3rem;
+  color: gray;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.dot{
+  margin-right: 1rem;
+  content:"\A";
+  width:1.5rem;
+  height:1.5rem;
+  border-radius:50%;
+  border: solid gray;
+  background: white;
+}
+
+.schedule-content{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+</style>
+</head>
+<body>
+<div class = "schedule">
+  <div class = "schedule-item">
+    <div class =" schedule-header">
+    <div class = "schedule-title">
+      <span class = "dot"></span>
+      Board room
+    </div>
+    </div>
+    <div class ="schedule-content">
+      Meeting<br/>
+      10:00 a.m.
+    </div>
+  </div>
+  <div class = "schedule-item">
+    <div class = "schedule-title">
+      <span class = "dot"></span>
+      Meeting
+    </div>
+    <div class ="schedule-content">
+      Board Room<br/>
+      12:00 a.m.
+    </div>
+  </div>
+</div>
+</body>
+</html>
